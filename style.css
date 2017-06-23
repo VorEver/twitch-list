@@ -1,0 +1,58 @@
+/* colors 
+
+dark - #283739;
+teal - #228896;
+green - #A9C52F;
+light - #F5F5F5;
+
+*/
+body {
+  background-color: #283739;
+  font-size: 20px;
+  font-family: "Cuprum",sans-serif;
+}
+#bigBox {
+}
+#titleBox, #streamBox{
+  background-color: #228896;
+  width: 40%;
+  padding; 20px 40px;
+  border: 6px ridge #A9C52F;
+  border-radius: 20px;
+}
+#titleBox {
+  color: #F5F5F5;
+  margin: 20px auto 0px auto;
+}
+#streamBox {
+  color: #A9C52F;
+  margin: 0px auto;
+}
+#buttonBox {
+  display: flex-inline;
+}
+.myBtn {
+  flex: 0 0 15%;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px;
+  background-color: #283739;
+  border: ridge 2px;
+  border-radius: 10px;
+}
+.streamStuff {
+  background-color: #F5F5F5;
+  color: #283739;
+  width: 40%;
+  margin: 0px auto;
+  padding; 20px 40px;
+  border: 6px ridge #A9C52F;
+  border-radius: 20px;
+}
+.streamStuff a, .streamStuff a:visited {
+  color: #228896;
+  text-decoration: none;
+}
+.streamStuff a:hover {
+  text-decoration: underline;
+}
