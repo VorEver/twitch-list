@@ -29,7 +29,6 @@ function showList() {
   streamList.forEach( function(listing){
     entry = "";
     $.getJSON('https://wind-bow.glitch.me/twitch-api/streams/'+ listing +'?callback=?', function(stuff) {
-      console.log(stuff);
       if(stuff.stream && live) { 
         // we append a listing for a live channel
        	entry = '<div class="streamStuff">';
